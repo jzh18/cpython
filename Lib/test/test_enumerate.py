@@ -4,7 +4,7 @@ import sys
 import pickle
 import gc
 
-from test import support
+from . import support
 
 class G:
     'Sequence using __getitem__'

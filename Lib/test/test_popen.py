@@ -4,7 +4,7 @@
 """
 
 import unittest
-from test import support
+from . import support
 import os, sys
 
 # Test that command-lines get down as we expect.

@@ -6,7 +6,7 @@ import unittest
 import weakref
 import inspect
 
-from test import support
+from . import support
 
 try:
     import _testcapi

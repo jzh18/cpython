@@ -1,6 +1,6 @@
 import keyword
 import unittest
-from test.support import use_old_parser
+from .support import use_old_parser
 
 
 class Test_iskeyword(unittest.TestCase):
